@@ -122,12 +122,12 @@ export default function Flashcard() {
               </div>
             </div>
           </div>
-          {/*<CardNavigation*/}
-          {/*  cardLimit={data ? data.length : 0}*/}
-          {/*  currentIdx={currentIdx}*/}
-          {/*  handleOnPrevious={handleOnPrevious}*/}
-          {/*  handleOnNext={handleOnNext}*/}
-          {/*/>*/}
+          <CardNavigation
+            cardLimit={data ? data.length : 0}
+            currentIdx={currentIdx}
+            handleOnPrevious={handleOnPrevious}
+            handleOnNext={handleOnNext}
+          />
         </>
       )}
     </>
